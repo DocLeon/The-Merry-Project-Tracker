@@ -10,7 +10,7 @@ These are the results.
 Usage
 =====
 
-API_KEY] refers to the key [generated](http://dev.agilezen.com/concepts/authentication.html) for a [AgileZen](www.agilezen.com) user
+API_KEY refers to the key [generated](http://dev.agilezen.com/concepts/authentication.html) for a [AgileZen](http://www.agilezen.com) user
 
 /{API_KEY}/projects
 	- lists all the projects associated with the user
