@@ -1,7 +1,9 @@
+require "json"
 module Backend
 	class Projects
-		def get_last_story_moved_for(project_id)
-			@api.get_stories_for(project_id)
+		def get_stories_for(project_id)
+			data = @api.get_stories_for(project_id)
+			JSON.parse(data)["items"]
 		end
 
 		def initialize(api)

@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../../../story.css"
+	</head>
+	<body>		
+			<% @stories.each do |story| %>
+				<div><p><%= story["text"] %></p> </div>
+			<% end %>
+		
+	</body>
+</html>
